@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Spaces</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="featured">
+            <h2>Featured Spaces</h2>
+            <p>Explore a curated selection of premier workspaces that embody the essence of productivity and comfort. Whether you need a focused environment or a collaborative setting, we have the perfect space for you.</p>
+            <button class="discover-btn">Discover →</button>
+        </section>
+
+        <div class="grid">
+            <div class="space">
+                <img src="workspace1.jpg" alt="Green Oasis Retreats">
+                <h3>Green Oasis Retreats</h3>
+                <p>New York, NY</p>
+                <p>$15-$18 per hour</p>
+                <button class="book-btn">Book Space</button>
+            </div>
+
+            <div class="space">
+                <img src="workspace2.jpg" alt="Executive Elegance">
+                <h3>Executive Elegance</h3>
+                <p>New York, NY</p>
+                <p>$15-$18 per hour</p>
+                <button class="book-btn">Book Space</button>
+            </div>
+
+            <div class="space">
+                <img src="workspace3.jpg" alt="Creative Studios for Innovation">
+                <h3>Creative Studios for Innovation</h3>
+                <p>New York, NY</p>
+                <p>$15-$18 per hour</p>
+                <button class="book-btn">Book Space</button>
+            </div>
+
+            <div class="space">
+                <img src="workspace4.jpg" alt="Collaborative Corners">
+                <h3>Collaborative Corners</h3>
+                <p>New York, NY</p>
+                <p>$15-$18 per hour</p>
+                <button class="book-btn">Book Space</button>
+            </div>
+        </div>
+    
+body {
+    background-color: #2E5D38;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #EAF4E1;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+}
+
+.featured {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured h2 {
+    font-size: 24px;
+}
+
+.featured p {
+    font-size: 14px;
+    color: #555;
+}
+
+.discover-btn {
+    background-color: #2E5D38;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.space {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.space img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.space h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.book-btn {
+    background-color: #2E5D38;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
