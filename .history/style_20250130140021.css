@@ -1,5 +1,7 @@
+
+
 body {
-  background-color: #2E5D38; /* Restored to green */
+  background-color: #A9D7A1; /* Lighter green */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@ body {
   background-color: #EAF4E1;
   padding: 30px;
   border-radius: 10px;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 
@@ -59,7 +61,6 @@ body {
   right: 10px;
   color: grey;
   font-size: 20px;
-  margin-top: 180px;
 }
 
 h3 {
